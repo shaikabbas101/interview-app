@@ -1,0 +1,40 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .heading-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #180d5b;
+    height: 55vh;
+    padding: 20px;
+    width: 100%;
+  }
+  .heading {
+    color: #ffffff;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 40px;
+    width: 250px;
+  }
+  .interview-image {
+    width: 450px;
+  }
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
+  .questions-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 95%;
+  }
+  
