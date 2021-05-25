@@ -7,34 +7,52 @@
   }
   .heading-container {
     display: flex;
-    justify-content: space-around;
+    flex-direction:column;
+    justify-content: center;
     align-items: center;
     background-color: #180d5b;
     height: 55vh;
+    width:100%;
     padding: 20px;
-    width: 100%;
+  }
+  @media screen and (min-width:768px){
+    .heading-container {
+      flex-direction: row;
+      justify-content: space-between;
+      width:100%;
+    }
   }
   .heading {
     color: #ffffff;
     font-family: 'Playfair Display';
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     width: 250px;
   }
+  @media screen and (min-width:768px){
+    .heading {
+      font-size: 40px;
+    }
+  }
   .interview-image {
-    width: 450px;
+    width: 300px;
+  }
+  @media screen and (min-width:768px){
+    .interview-image {
+      width: 45px;
+    }
   }
   .filter-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 95%;
+    width:60%;
   }
   .questions-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 95%;
+
   }
   
